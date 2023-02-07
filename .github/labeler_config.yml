@@ -6,6 +6,13 @@ labels:
   - label: "db"
     files:
       - "db/.*"
+  - label: "workflows"
+    files:
+      - '.github/*'
+      - '.github/workflows/*'
+  - label: "markdown"
+      - '**/*.md'
+
   - label: "docs"
     files:
       - "docs/.*"
@@ -18,3 +25,4 @@ labels:
   - label: "api"
     files:
       - "requests/.*"
+
