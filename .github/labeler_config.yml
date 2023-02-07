@@ -12,3 +12,17 @@ labels:
       - '.github/workflows/*'
   - label: "markdown"
       - '**/*.md'
+
+  - label: "docs"
+    files:
+      - "docs/.*"
+  - label: "workflows"
+    files:
+      - ".github/.*"
+  - label: "scripts"
+    files:
+      - "script/.*"
+  - label: "api"
+    files:
+      - "requests/.*"
+
