@@ -6,3 +6,9 @@ labels:
   - label: "db"
     files:
       - "db/.*"
+  - label: "workflows"
+    files:
+      - '.github/path-filters.yml'
+      - '.github/workflows/*'
+  - label: "markdown"
+    - '**/*.md'
