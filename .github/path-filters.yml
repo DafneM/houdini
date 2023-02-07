@@ -36,20 +36,21 @@ js-notice-files: &js-notice-files
   - 'included.json'
   - 'NOTICE-js'
 markdown: &markdown
-  - *gh-workflows
   - '**/*.md'
 
 setup-ruby:
-  - *gh-workflows
-  - *ruby-notice-files
-  - *ruby-only
-  - *js-notice-files
-  - *js-only
+  - 'tsconfig.json'
+  - 'tsconfig.jest.json'
+  - 'Rakefile'
+  - 'config.ru'
+
+tests:
+  - 'setupTests.js'
+  - 'setupTestsAfterEnvLoaded.js'
 
 build-ruby:
-  - *gh-workflows
-  - *ruby-notice-files
-  - *ruby-only
+  - 'Gemfile'
+  - 'Gemfile.lock'
 
 build-js:
   - *gh-workflows
@@ -59,10 +60,5 @@ build-js:
   - *js-only
 
 install-node:
-  - *gh-workflows
-  - *ruby-notice-files
-  - *ruby-only
-  - *js-notice-files
-  - *js-only
-  - *markdown
+  - '.nvmrc'
 
