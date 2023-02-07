@@ -8,7 +8,7 @@ labels:
       - "db/.*"
   - label: "workflows"
     files:
-      - '.github/path-filters.yml'
+      - '.github/*'
       - '.github/workflows/*'
   - label: "markdown"
-    - '**/*.md'
+      - '**/*.md'

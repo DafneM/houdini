@@ -7,7 +7,7 @@
 > [v1](https://github.com/houdiniproject/houdini/tree/1-0-stable)
 > instead.
 
-The Houdini Project is free and open source fundraising infrastructure. It includes...
+The Houdini Project is free and open source fundraising infrastructure. It includes...22
 
 - Crowdfunding campaigns
 - Donate widget page and generator
